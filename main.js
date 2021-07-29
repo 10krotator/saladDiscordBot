@@ -30,6 +30,9 @@ client.on('message', message => {
     else if(command === 'whosthis'){
         message.channel.send('I am only a Baguette de pain complet :333');
     }
+    else if(command === 'harmonia'){
+        message.channel.send('https://imgur.com/NT1hQEQ');
+    }
 });
 
 
