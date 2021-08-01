@@ -20,7 +20,6 @@ const harmonia = ['https://imgur.com/NT1hQEQ',
 'https://imgur.com/c3WxfFG',
 'https://imgur.com/XMJPlU0',
 'https://imgur.com/n8KhfzF',
-'https://imgur.com/guBppgi',
 'https://imgur.com/53jHl2R',
 'https://imgur.com/nUCWvFT',
 'https://imgur.com/FYcZmdM',
@@ -36,6 +35,7 @@ const harmonia = ['https://imgur.com/NT1hQEQ',
 const giphy_url = "https://api.giphy.com/v1/gifs/search?api_key=";
 const giphy_endpoint = "&q=ferret&limit=50&offset=0&rating=g&lang=en";
 const ferret_api = giphy_url + giphy_api_key + giphy_endpoint;
+
 // API request for 25 ferret gifs
 
 // End of API request
