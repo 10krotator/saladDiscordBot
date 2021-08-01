@@ -56,7 +56,7 @@ async function MessageFN(message){
     if(command === 'ping'){
         message.channel.send('pong!');
     }
-    else if(command === 'ferret'){
+    else if(command === 'no'){
         let response = await fetch(ferret_api);
         let json = await response.json();
         let index = Math.floor(Math.random()*json.data.length);
